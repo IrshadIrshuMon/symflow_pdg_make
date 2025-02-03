@@ -1,0 +1,3 @@
+create binary and assembly from test using make
+then cargo build then cargo test, which will make cfg, ddg and pdg in target/out
+then run the python code test.py to generate pickled format of pdg which will be stored in target/out/igraph_format 
